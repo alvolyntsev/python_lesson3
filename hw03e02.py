@@ -17,8 +17,8 @@ def luck(number):
             if i>numlen/2-1:
                 vtorpol+=int(number[i])
         if perpol == vtorpol:
-            result = True
-        else: result = False
+            result = 'счастливый'
+        else: result = 'не счастливый'
     return result
 
 print(luck(input('введите номер билета \n')))
